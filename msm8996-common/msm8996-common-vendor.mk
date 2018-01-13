@@ -765,6 +765,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/xtwifi-inet-agent:system/vendor/bin/xtwifi-inet-agent \
     vendor/zuk/msm8996-common/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
+    vendor/zuk/msm8996-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/zuk/msm8996-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/zuk/msm8996-common/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/zuk/msm8996-common/proprietary/bin/tftp_server:system/bin/tftp_server \
