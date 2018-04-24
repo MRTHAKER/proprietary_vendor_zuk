@@ -920,6 +920,9 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/liblearningmodule.so:system/vendor/lib64/liblearningmodule.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libmeters.so:system/vendor/lib64/libmeters.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libreffeature.so:system/vendor/lib64/libreffeature.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
@@ -937,4 +940,5 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     WfdService \
-    WfdCommon
+    WfdCommon \
+    ReferenceFeature
