@@ -948,7 +948,14 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqti-perfd.so:system/vendor/lib64/libqti-perfd.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqti-util.so:system/vendor/lib64/libqti-util.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libjni_clearsight.so:system/vendor/lib64/libjni_clearsight.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libjni_makeupV2.so:system/vendor/lib64/libjni_makeupV2.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libjni_optizoom.so:system/vendor/lib64/libjni_optizoom.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libjni_sharpshooter.so:system/vendor/lib64/libjni_sharpshooter.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libjni_ubifocus.so:system/vendor/lib64/libjni_ubifocus.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libseemore.so:system/vendor/lib64/libseemore.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libjni_dualcamera.so:system/vendor/lib/libjni_dualcamera.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
