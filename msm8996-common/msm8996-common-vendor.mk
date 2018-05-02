@@ -955,7 +955,9 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libjni_sharpshooter.so:system/vendor/lib64/libjni_sharpshooter.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libjni_ubifocus.so:system/vendor/lib64/libjni_ubifocus.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libseemore.so:system/vendor/lib64/libseemore.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libjni_dualcamera.so:system/vendor/lib/libjni_dualcamera.so
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libjni_dualcamera.so:system/vendor/lib/libjni_dualcamera.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libjni_filtergenerator.so:system/vendor/lib64/libjni_filtergenerator.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libjni_trueportrait.so:system/vendor/lib64/libjni_trueportrait.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
